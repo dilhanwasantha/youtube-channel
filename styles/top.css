@@ -1,0 +1,126 @@
+.top-half
+{
+    padding-top: 56px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-top: 0px;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+
+.upper-top
+{
+    height: 166px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.background-img
+{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.lower-top
+{
+    height: 126px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side
+{
+    align-items: middle;
+    vertical-align: center;
+    padding-left: 79px;
+}
+
+.channel-profile-picture
+{
+    height: 80px;
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.channel-title
+{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-bottom: 6px;
+    font-family: Arial
+}
+
+.subscribe
+{
+    background-color: rgb(196, 1, 1);
+    color: white;
+    padding: 10px 15px;
+    font-family: Roboto, Arial;
+    border: none;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 2px;
+    margin-right: 80px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.subscribe:hover
+{
+    opacity: 0.75;
+}
+
+.stats
+{
+    color: #606060;
+    font-size: 14.5px;
+}
+
+
+.lowest-top
+{
+    height: 30px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 170px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 230, 230);
+}
+
+.button-style, .home-button-style
+{
+    font-size: 14px;
+    font-weight: 450;
+    height: 28px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    flex: 1;
+    color: #606060;
+}
+
+.home-button-style
+{
+    color: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.button-style:hover, .home-button-style:hover
+{
+    color: black;
+}
+
+
